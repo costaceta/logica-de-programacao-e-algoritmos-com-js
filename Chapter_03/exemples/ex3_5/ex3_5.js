@@ -25,7 +25,7 @@ function calcRaiz() {
   // }
 
   // Solution 02
-  if(square == Math.floor(square)) {
+  if(square != Math.floor(square)) {
     outResult.textContent = "Não há raiz exata para: " + number;
     outResult.style.color = "red";
     return;
