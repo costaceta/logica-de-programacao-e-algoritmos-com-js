@@ -1,0 +1,4 @@
+img.normal { float: left; height: 300px; width: 300px; margin-right: 16px; }
+img.alta { float: left; height: 420px; width: 300px; margin-right: 16px}
+h1 { border-bottom-style: inset; }
+pre { font-size: 1.2em; }
