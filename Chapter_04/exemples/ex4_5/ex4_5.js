@@ -31,8 +31,7 @@ function registrarConta() {
 
   // altera o conteúdo das tags de resposta
   outListaContas.textContent = resposta + "--------------------------------";
-  outTotal.textContent = numContas + " Conta(s) - Total R$: " +
-    valTotal.toFixed(2);
+  outTotal.textContent = numContas + " Conta(s) - Total R$: " + valTotal.toFixed(2);
 
   // limpa campos e posiciona cursor em inDescricao
   inDescricao.value = "";
